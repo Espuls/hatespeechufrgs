@@ -1,0 +1,19 @@
+# Setup do projeto com Python versão 3.13
+
+# Dataset e manipulação
+pandas>=2.0.0
+datasets>=2.14.0
+
+# Modelos tradicionais
+scikit-learn>=1.3.0
+
+# Modelos BERT/BERTimbau
+transformers>=4.33.0
+torch>=2.1.0
+
+# Interpretação com SHAP
+shap>=0.42.1
+matplotlib>=3.8.0
+
+# Utilitários
+numpy>=1.26.0

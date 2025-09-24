@@ -1,0 +1,15 @@
+def generate_report(metrics_rf, metrics_bert, rf_shap_path, bert_shap_path):
+    print("\n📊 RELATÓRIO FINAL")
+    print("🔹 Random Forest:")
+    print(f"Acurácia: {metrics_rf['accuracy']:.4f}")
+    print(f"Precisão: {metrics_rf['precision']:.4f}")
+    print(f"Recall: {metrics_rf['recall']:.4f}")
+    print(f"F1-Score: {metrics_rf['f1']:.4f}")
+    print(f"SHAP salvo em: {rf_shap_path}")
+
+    print("\n🔹 BERTimbau:")
+    print(f"Acurácia: {metrics_bert['accuracy']:.4f}")
+    print(f"Precisão: {metrics_bert['precision']:.4f}")
+    print(f"Recall: {metrics_bert['recall']:.4f}")
+    print(f"F1-Score: {metrics_bert['f1']:.4f}")
+    print(f"SHAP salvo em: {bert_shap_path}")
