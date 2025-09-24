@@ -15,7 +15,7 @@ hate_speech_ufrgs/
 └── main.py                     # Pipeline principal de execução
 
 # Instalação
-1. Clone o repositório: git clone
+1. Clone o repositório: git clone git@github.com:Espuls/hatespeechufrgs.git
 2. Instale as dependências: pip install -r requirements.txt
 
 # Ordem de Execução
