@@ -88,3 +88,8 @@ O notebook implementa um pipeline completo para detecção de discurso de ódio 
 # Avaliação consolidada e interpretação de erros
 * Consolidação das probabilidades de cada modelo para calcular métricas macro (accuracy, precisão, recall, F1) e da classe positiva; geração de tabelas comparativas, *barplots* (accuracy/F1), curvas ROC e Precision–Recall, matrizes de confusão e *heatmaps* de correlação entre métricas.
 * Rotina de análise de erros: seleciona amostras em que pelo menos um modelo errou e mostra, para cada modelo, as previsões e gráficos SHAP locais (TF-IDF para Random Forest e Regressão Logística; tokens para BERTimbau/LLaMA), facilitando a inspeção de divergências entre abordagens.
+
+## Experimentos
+* Experimento 1 - explicable_hatespeech_pt.ipynb (baseline completo).
+* Experimento 2 - explicable_hatespeech_pt_refactored.ipynb (refatoração com melhorias de features).
+* Experimento 3 - explicable_hatespeech_pt_refactored_test.ipynb (com acentos e spaCy).
